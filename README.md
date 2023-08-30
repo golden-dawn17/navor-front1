@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
 First, install these dependencies:
@@ -8,14 +6,16 @@ First, install these dependencies:
 npm install @faker-js/faker @radix-ui/react-accordion @radix-ui/react-avatar @radix-ui/react-checkbox @radix-ui/react-dialog @radix-ui/react-dropdown-menu @radix-ui/react-icons @radix-ui/react-label @radix-ui/react-popover @radix-ui/react-select @radix-ui/react-separator @radix-ui/react-slot @radix-ui/react-tabs @tanstack/react-table class-variance-authority clsx cmdk lucide-react next next-themes react react-dom recharts sharp tailwind-merge tailwindcss-animate zod 
 ```
 
-First, run the development server:
+Second, install these dev dependencies:
+
+```bash
+npm install --save-d @types/node @types/react @types/react-dom @typescript-eslint/parser autoprefixer eslint eslint-config-next eslint-plugin-react eslint-plugin-tailwindcss postcss tailwindcss typescript
+```
+
+Third, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
