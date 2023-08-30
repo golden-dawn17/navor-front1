@@ -2,6 +2,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+First, install these dependencies:
+
+```bash
+npm install @faker-js/faker @radix-ui/react-accordion @radix-ui/react-avatar @radix-ui/react-checkbox @radix-ui/react-dialog @radix-ui/react-dropdown-menu @radix-ui/react-icons @radix-ui/react-label @radix-ui/react-popover @radix-ui/react-select @radix-ui/react-separator @radix-ui/react-slot @radix-ui/react-tabs @tanstack/react-table class-variance-authority clsx cmdk lucide-react next next-themes react react-dom recharts sharp tailwind-merge tailwindcss-animate zod 
+```
+
 First, run the development server:
 
 ```bash
